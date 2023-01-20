@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/547a9b9c83.js" crossorigin="anonymous"></script>
+  <title>Creá tu cuenta</title>
+</head>
+<body>
+  <header>
+  <div class="header-container">
+    <section class="header-top">
+      <img class="logo" src="logo-mercado-liebre.svg">
+      <input class="search" type="search" name="search" placeholder="Buscar Productos">  <div class= search-icon> <i class="fa-solid fa-magnifying-glass"></i></div>
+    </section>
+    <div class="cuotas">
+      <span class="header-cuotas">  <i class="fa-solid fa-hand-holding-dollar"></i> 
+        Comprá en cuotas y sin tarjeta de crédito</span>
+      </div>
+    </div>
+    <div class="header-links">
+      <nav class="nav-links">
+        <ul class="nav-links-left">
+          <li> <a href="#"> Ofertas </a> </li>
+          <li> <a href="#"> Tiendas Oficiales</a> </li>
+          <li> <a href="#"> Vender</a></li>
+          <li> <a href="#"> Ayuda</a></li>
+        </ul>
+        <ul class="nav-links-right">
+          <li> <a href="#"> Creá tu cuenta</a><i class="fa-solid fa-address-card"></i></li>
+          <li> <a href="#"> Ingresa</a> <i class="fa-solid fa-right-to-bracket"></i> </li>
+          <li> <a href="#"> Mis Compras</a> <i class="fa-solid fa-basket-shopping"></i> </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="burger-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+  <main class="main-container">
+      <article class="register-form">
+      <form class="form" method="post" action="/Users/Facundo/Desktop/17ma de Front/mercadoliebre/index.html">
+        <fieldset class="user-info">
+          <legend>Datos personales:</legend>
+          <input type="text" name="name" placeholder="Nombre y apellido" required>
+          <input type="text" name="username" placeholder="Nombre de usuario" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <label for="birth">Fecha de nacimiento:</label>
+          <input type="date" name="birth" value="fecha-de-nacimiento" required>
+          <input type="text" name="address" placeholder="Domicilio" required>
+      </fieldset>
+      <fieldset id="user-profile">
+          <legend>Perfil de usuario:</legend>
+          <input type="radio" name="options" value="buyer">
+          <label for="text">Comprador</label>
+          <input type="radio" name="options" value="seller">
+          <label for="text">Vendedor</label>
+      </fieldset>
+      <fieldset id="user-interests">
+          <legend>Intereses:</legend>
+          <article>
+              <input type="checkbox" name="electro" id="electro" value="electro">
+              <label for="text">Electro</label>
+          </article>
+          <article>
+              <input type="checkbox" name="moda" id="moda" value="moda">
+              <label for="text">Moda</label>
+          </article>
+          <article>
+              <input type="checkbox" name="hogar" id="hogar" value="hogar">
+              <label for="text">Hogar</label>
+          </article>
+          <article>
+              <input type="checkbox" name="jugueteria" id="jugueteria" value="jugueteria">
+              <label for="text">Juguetería</label>
+          </article>
+          <article>
+              <input type="checkbox" name="vida-sana" id="vida-sana" value="vida-sana">
+              <label for="text">Vida sana</label>
+          </article>
+      </fieldset>
+      <fieldset class="password">
+          <legend>Contraseña</legend>
+          <input type="password" name="password" placeholder="******">
+          <input type="password" name="password"  placeholder="Confirmar contraseña">
+      </fieldset>
+      <div class="button-container">
+      <button class="button-login"><a href="index.html">Enviar</a></button>
+      <input class="button-login" type="reset" value="Borrar">
+    </div>
+    </form> 
+</article>
+  <section class="info-container">
+    <article class="info">
+      <div class="info-box"> 
+        <i class="fa-solid fa-credit-card"></i>
+        <h3>Pagá con tarjeta o en efectivo</h3>
+        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+      </div>
+      <div class="info-box">
+        <i class="fa-solid fa-gift"></i>
+        <h3>Envío gratis desde $ 2.500</h3>
+        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+      </div>
+      <div class="info-box">
+        <i class="fa-solid fa-user-shield"></i>
+        <h3>Seguridad, de principio a fin</h3>
+        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+        <div class="copyright">Copyright © 1999-2020 MercadoLiebre </div>
+      </div>
+    </article>
+  </section>
+</body>
+</html>
